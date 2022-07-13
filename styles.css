@@ -1,36 +1,35 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: url("magic.png"), auto;
 }
 
 body {
-  background-color: #111;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 400px;
-  flex-wrap: wrap;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-wrap: wrap;
 }
 
 .square {
-  width: 16px;
-  height: 16px;
-  background: #1d1d1d;
-  margin: 2px;
-  box-shadow: 0 0 2px #000;
-  transition: 1s ease;
-
+    width: 16px;
+    height: 16px;
+    background: #1d1d1d;
+    margin: 1px;
+    box-shadow: 0 0 2px #000;
+    transition: 1s ease;
 }
 
 .square:hover {
-  transition-duration: 0s;
+    transition-duration: 0s;
 }
